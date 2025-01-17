@@ -10,7 +10,7 @@ const schema=zod.object({
 })
 
 
-mongoose.connect("mongodb+srv://rohikamble17:3igm63vUEwDBk3Ii@cluster0.pxok7.mongodb.net/test1")
+mongoose.connect("use tour mangodb DB cluster")
 const User = mongoose.model('User', { name: String,email: String,password : Number });
 
 
